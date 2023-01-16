@@ -38,7 +38,7 @@ function CartContainer() {
             <div className="infoBuy">
               <p>Total: $ {totalPrice()}</p>
               <button onClick={() => {document.location.reload(true)
-                document.location.pathname = '/'
+                document.location.pathname = '/arusa'
                 alert('Successful operation')}}>Proceed to checkout</button>
               <button><Link onClick={() => window.scrollTo(0, 0)} to="/arusa/products" style={{color:'#fff', textDecoration:'none'}}>Continue shopping</Link></button>
             </div>
