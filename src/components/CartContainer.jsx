@@ -19,7 +19,7 @@ function CartContainer() {
         <div className="cartContainerText">
           Your cart is empty...
           <div>
-            <Link onClick={() => window.scrollTo(0, 0)} to="/products">Go Shopping</Link>
+            <Link onClick={() => window.scrollTo(0, 0)} to="/arusa/products">Go Shopping</Link>
           </div>
         </div>
       </>
@@ -40,7 +40,7 @@ function CartContainer() {
               <button onClick={() => {document.location.reload(true)
                 document.location.pathname = '/'
                 alert('Successful operation')}}>Proceed to checkout</button>
-              <button><Link onClick={() => window.scrollTo(0, 0)} to="/products" style={{color:'#fff', textDecoration:'none'}}>Continue shopping</Link></button>
+              <button><Link onClick={() => window.scrollTo(0, 0)} to="/arusa/products" style={{color:'#fff', textDecoration:'none'}}>Continue shopping</Link></button>
             </div>
             <div className='cartContainerContent'>
               {

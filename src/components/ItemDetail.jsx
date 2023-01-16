@@ -21,8 +21,8 @@ function ItemDetail({item}) {
                     <h1>{item.product}</h1>
                     <p>{item.desc}</p>
                     <p className='priceInfo'>${item.price}</p>
-                        {Buy ? <div><Link onClick={() => window.scrollTo(0, 0)} to="/cart" style={{color:'#fff', textDecoration:'none'}}><button>Go to cart</button></Link>
-                                <Link onClick={() => window.scrollTo(0, 0)} to="/products" style={{color:'#fff', textDecoration:'none'}}><button>Continue shopping</button></Link></div> : <button onClick={() => {
+                        {Buy ? <div><Link onClick={() => window.scrollTo(0, 0)} to="/arusa/cart" style={{color:'#fff', textDecoration:'none'}}><button>Go to cart</button></Link>
+                                <Link onClick={() => window.scrollTo(0, 0)} to="/arusa/products" style={{color:'#fff', textDecoration:'none'}}><button>Continue shopping</button></Link></div> : <button onClick={() => {
                         z.addToCartfn(item.id)
                         setBuy(true)
                         }}>Add to bag</button>}

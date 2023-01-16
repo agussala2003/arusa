@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Product2({item}) {
   return (
     <>
-    <Link onClick={() => window.scrollTo(0, 0)} style={{textDecoration:'none'}} to={`/item/${item.id}`}>
+    <Link onClick={() => window.scrollTo(0, 0)} style={{textDecoration:'none'}} to={`/arusa/item/${item.id}`}>
       <div className={`firstBanner` + item.id}>
         <div className="cardContainer">
           <img src={item.img} alt="Product Image"/>

@@ -21,7 +21,7 @@ function ProductContainer() {
       }
     </div>
     <div className="buttonContainer">
-      <Link style={{textDecoration:'none', color:'#000'}} to="/products" onClick={() => window.scrollTo(0, 0)}>Shop All</Link>
+      <Link style={{textDecoration:'none', color:'#000'}} to="/arusa/products" onClick={() => window.scrollTo(0, 0)}>Shop All</Link>
     </div>
     </>
   )

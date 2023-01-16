@@ -36,18 +36,18 @@ function Nav() {
                 <p>SHOP</p>
             </div>
             <div className="tContainer">
-                <Link onClick={() => window.scrollTo(0, 0)} style={{textDecoration: 'none'}} to="/"><h3>arusa</h3></Link>
+                <Link onClick={() => window.scrollTo(0, 0)} style={{textDecoration: 'none'}} to="/arusa"><h3>arusa</h3></Link>
             </div>
             <div className="cartContainer">
-                    <Link className='bag' style={{textDecoration: 'none'}} to="/cart"><i className='bx bx-cart'></i></Link>
+                    <Link className='bag' style={{textDecoration: 'none'}} to="/arusa/cart"><i className='bx bx-cart'></i></Link>
             </div>
         </div>
         <div className="linksContainer">
             <h3>Arusa</h3>
             <ul>
-                <li><Link onClick={bothActions} style={{textDecoration:'none', color:'#000'}} to="/">Home</Link></li>
-                <li><Link onClick={bothActions} style={{textDecoration:'none', color:'#000'}} to="/products" >Products</Link></li>
-                <li><Link onClick={bothActions} style={{textDecoration:'none', color:'#000'}} to="/contact">Contact</Link></li>
+                <li><Link onClick={bothActions} style={{textDecoration:'none', color:'#000'}} to="/arusa/">Home</Link></li>
+                <li><Link onClick={bothActions} style={{textDecoration:'none', color:'#000'}} to="/arusa/products" >Products</Link></li>
+                <li><Link onClick={bothActions} style={{textDecoration:'none', color:'#000'}} to="/arusa/contact">Contact</Link></li>
             </ul>
         </div>
     </nav>

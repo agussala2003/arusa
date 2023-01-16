@@ -16,7 +16,7 @@ function Home() {
                 <h3>Seamless furtniture</h3>
                 <h3>with natural fabrics</h3>
             </div>
-            <Link style={{textDecoration:'none', color:'#000'}}  onClick={() => window.scrollTo(0, 0)} to="/products">Shop all</Link>
+            <Link style={{textDecoration:'none', color:'#000'}}  onClick={() => window.scrollTo(0, 0)} to="/arusa/products">Shop all</Link>
         </div>
         <ProductContainer/>
         <Individual/>

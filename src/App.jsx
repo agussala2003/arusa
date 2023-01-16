@@ -15,12 +15,12 @@ function App() {
     <BrowserRouter>
       <Navbar/>
       <Routes>
-        <Route path='/'element={<Home/>}/>
-        <Route path='/products'element={<ProductsContainer/>}/>
-        <Route path="/item/:id" element={<ItemDetailContainer />}/>
-        <Route path='/cart' element ={<CartContainer/>}/>
-        <Route path='/contact' element ={<Contact/>}/>
-        <Route path='/article/:ide' element ={<ArticleSection/>}/>
+        <Route path='/arusa'element={<Home/>}/>
+        <Route path='/arusa/products'element={<ProductsContainer/>}/>
+        <Route path="/arusa/item/:id" element={<ItemDetailContainer />}/>
+        <Route path='/arusa/cart' element ={<CartContainer/>}/>
+        <Route path='/arusa/contact' element ={<Contact/>}/>
+        <Route path='/arusa/article/:ide' element ={<ArticleSection/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>

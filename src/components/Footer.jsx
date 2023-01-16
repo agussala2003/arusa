@@ -9,7 +9,7 @@ function Footer() {
                 <div className="list">
                     <h4>Store</h4>
                     <div className="linksTo">
-                        <Link className='linksFooter' style={{textDecoration:'none', color:'#fff',}}  onClick={() => window.scrollTo(0, 0)} to="/">Home</Link>
+                        <Link className='linksFooter' style={{textDecoration:'none', color:'#fff',}}  onClick={() => window.scrollTo(0, 0)} to="/arusa">Home</Link>
                         <a href="#">About</a>
                         <a href="#">Journal</a>
                         <a href="#">Contact</a>
@@ -36,7 +36,7 @@ function Footer() {
                 <div className="list">
                     <h4>Help</h4>
                     <div className="linksTo">
-                        <Link className='linksFooter' style={{textDecoration:'none', color:'#fff',}}  onClick={() => window.scrollTo(0, 0)} to="/contact">Contact</Link>
+                        <Link className='linksFooter' style={{textDecoration:'none', color:'#fff',}}  onClick={() => window.scrollTo(0, 0)} to="/arusa/contact">Contact</Link>
                         <a href="#">Login & Account</a>
                         <a href="#">Privacy Policy</a>
                         <a href="#">Refund Policy</a>
